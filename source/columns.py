@@ -508,3 +508,18 @@ nonull_vxxx_cols = [
 	'V295', 'V297', 'V298', 'V299', 'V302', 'V303', 'V304', 'V305', 'V306', 'V307', 'V308', 
 	'V309', 'V310', 'V311', 'V312', 'V316', 'V317', 'V318', 'V319', 'V320', 'V321']
 
+match_map = {
+	-1: -1,
+	0: 0,
+	1: 1,
+	2: 2,
+	'T': 1,
+	'F': 0,
+	'M0': 0,
+	'M1': 1,
+	'M2': 2,
+}
+
+os = ['Windows', 'iOS', 'Android', 'Mac OS', 'Linux']
+browser = ['chrome', 'mobile safari', 'ie', 'safari', 'edge', 'firefox']
+device = ['Windows', 'iOS', 'MacOS', 'SM', 'SAMSUNG', 'Moto', 'LG']
